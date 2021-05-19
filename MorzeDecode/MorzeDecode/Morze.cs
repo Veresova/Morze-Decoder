@@ -1,10 +1,9 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace MorzeDecode
 {
-    public class Program
+    public class Morze
     {
         /**
          * Объявление словаря азбуки морзе
@@ -88,19 +87,6 @@ namespace MorzeDecode
                     decodedText += "*"; // Если не нашлось, то ставим звездочку на место буквы
             }
             return decodedText;
-        }
-    }
-
-    [TestFixture]
-    public class AutoTest
-    {
-        [Test]
-        public void MorzeTest()
-        {
-            string[] morzeArray = { ".- -... -.-.  .---- ..--- ...--", ".... . .-.. .-.. ---  .-- --- .-. .-.. -.." };
-            foreach (string morzeText in morzeArray) {
-                Console.WriteLine("\n{0} - декодированная строка\n", Program.Decode(morzeText));
-            }
         }
     }
 }

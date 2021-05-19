@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorzeDecode", "MorzeDecode\MorzeDecode.csproj", "{5C9B0229-3978-43E1-B799-159E6271AA66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MorzeDecode", "MorzeDecode\MorzeDecode.csproj", "{5C9B0229-3978-43E1-B799-159E6271AA66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A099331-08A5-405B-BA54-A360FC91BBE8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorzeTest", "MorzeTest\MorzeTest.csproj", "{577D84A7-3648-47B6-BF48-EDA3EB6C2847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{5C9B0229-3978-43E1-B799-159E6271AA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C9B0229-3978-43E1-B799-159E6271AA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C9B0229-3978-43E1-B799-159E6271AA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577D84A7-3648-47B6-BF48-EDA3EB6C2847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577D84A7-3648-47B6-BF48-EDA3EB6C2847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577D84A7-3648-47B6-BF48-EDA3EB6C2847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577D84A7-3648-47B6-BF48-EDA3EB6C2847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
