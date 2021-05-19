@@ -9,3 +9,5 @@
 1) Обычный [Test]
 2) Тест с выводом исключения
 3) Тест с атрибутами [TestCase(..)]
+
+![изображение](https://user-images.githubusercontent.com/84410667/118878060-d5e63980-b8f7-11eb-8789-a5b085cba001.png)
