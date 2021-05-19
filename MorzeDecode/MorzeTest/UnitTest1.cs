@@ -20,7 +20,7 @@ namespace MorzeTest
         public void TestErrorCase()
         {
             string morzeText = "*";
-            Assert.AreEqual(morzeText, "Hello World");
+            Assert.AreEqual(Morze.Decode(morzeText), "Hello World");
         }
 
         [TestCase(".- -... -.-.  .---- ..--- ...--")]
